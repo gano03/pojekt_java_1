@@ -26,3 +26,8 @@ Akapit:
     Klasa odpowiedzialna za przetwarzany akapit i jego operacje.
     
     Metoda "akapit_poczatek" odpowiada za to by akapit rozpoczynał się tylko od liter łacińskich z zestawu znaków ASCII.
+    
+    Metoda "makra operacje" jest odpowiedzialna za zastępienie wszystkich makr po lewej stronie nawiasu, tymi po prawej stronie.
+    
+    Metoda "akapit_formatowanie" odpowiada za odpowiednie połamanie akapitu tak by żadna linijka nie przekraczała zakkładanej długości oraz
+    tak by żadne słowo nie zostało ucięte podczas formatowania.
